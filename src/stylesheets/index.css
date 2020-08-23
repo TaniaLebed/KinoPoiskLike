@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  height: 100% !important;
+  background-color: #000 !important;
+}
+
+.wrapper {
+  width: 75%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+/* header */
+
+.navbar {
+  height: 80px;
+  display: flex;
+  background-color: #333;
+}
+
+.navbar__brand {
+  font-size: 30px;
+  padding-left: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.navbar__brand a {
+  color: #fff !important;
+}
+
+.navbar__brand span {
+  color: #ff8533;
+}
+
+.navbar__brand a:hover {
+  color: #d9d9d9 !important;
+}
+
+.navbar__text {
+  color: #d9d9d9;
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+/* end header */
+
+/* search */
+
+.search__area {
+  padding: 20px;
+  background-color: #595959;
+}
+
+.search {
+  min-height: 50px;
+  text-align: center;
+  padding-left: 50px !important;
+  border: 3px solid #ffc107 !important;
+}
+
+.search::placeholder {
+  text-transform: uppercase;
+  text-indent: 0;
+  transition: text-indent 1000ms;
+}
+
+.search:focus::placeholder {
+  text-indent: 1500px;
+}
+
+.search__button {
+  min-height: 50px;
+}
+
+.search:focus {
+  color: #212529 !important;
+  background-color: #fff !important;
+  border-color: #d39e00 !important;
+  box-shadow: none !important;
+}
+
+/* end search */
+
+/* main */
+
+.main__films {
+  background-color: #595959;
+  padding: 20px 10px 80px 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* main film card*/
+
+.film__card {
+  width: 304px;
+  height: 500px;
+  margin-bottom: 25px;
+  border: 2px solid #ff8533;
+  border-radius: 0.25rem;
+  background-color: #737373;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.film__poster img {
+  width: 300px;
+  height: 400px;
+  border-radius: 0.25rem;
+}
+
+.film__poster img:hover {
+  opacity: 0.7;
+}
+
+.film__card-body {
+  text-align: center;
+  padding: 10px 10px 30px 10px;
+  color: #d9d9d9;
+}
+
+.film__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+}
+
+.film__title:hover {
+  color: #ffc107;
+}
+
+/* end main*/
+
+/* details */
+
+.filmDetails {
+  background-color: #595959;
+  padding-top: 40px;
+  padding-bottom: 180px;
+}
+
+/* details film card*/
+
+.film__details__card {
+  margin: 0 20px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.film__details__card img {
+  border: 2px solid #ff8533;
+  border-radius: 0.25rem;
+  width: 300px;
+  height: 400px;
+  margin-right: 30px;
+}
+
+.film__details {
+  width: 60%;
+  padding: 10px;
+  border: 2px solid #d9d9d9;
+  background-color: #737373;
+  border: 2px solid #ffc107;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.film__details-title {
+  padding: 0 20px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+}
+
+.film__details-title span {
+  color: #ff8533;
+}
+
+.film__details-plot {
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #e6e6e6;
+}
+
+.film__details-info {
+  height: 50%;
+  background-color: #595959;
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid #ff8533;
+  border-radius: 0.25rem;
+  color: #d9d9d9;
+}
+
+.film__details-rating {
+  display: inline-block;
+  background-color: #ffc107;
+  border-radius: 0.25rem;
+  padding: 2px;
+  color: #000;
+}
+
+/* end details */
+
+/* footer */
+
+.footer {
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  width: 75%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__text {
+  color: #d9d9d9;
+}
+
+.footer__text a {
+  padding-left: 7px;
+  color: #ff8533;
+  cursor: pointer;
+}
+
+.footer__text span {
+  padding-left: 7px;
+}
+
+.footer__text a:hover {
+  color: #ffc107;
+}
+
+/* end footer */
+
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  padding-top: 300px;
+  color: #fff;
+  text-align: center;
+}
+
+@media (max-width: 1330px) {
+  .main__films {
+    justify-content: space-around;
+  }
+  .film__card {
+    margin: 0 10px 25px 10px;
+  }
+  .film__details-info {
+    height: 70%;
+  }
+  .film__details-title {
+    margin-top: 10px;
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .navbar__brand {
+    font-size: 25px;
+    padding-left: 50px;
+  }
+  .navbar__text {
+    font-size: 20px;
+  }
+  .film__details__card {
+    flex-direction: column;
+    align-items: center;
+  }
+  .film__details {
+    width: 80%;
+    margin: 30px;
+  }
+  .film__details__card img {
+    width: 250px;
+    height: 350px;
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper,
+  .footer {
+    width: 100%;
+  }
+
+  .search__area {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 780px) {
+  .search__area {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .film__details-title {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 680px) {
+  .film__card {
+    width: 254px;
+    height: 450px;
+  }
+
+  .film__poster img {
+    width: 250px;
+    height: 350px;
+  }
+
+  .film__title {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar__brand {
+    font-size: 22px;
+    padding-left: 30px;
+  }
+  .navbar__text {
+    font-size: 17px;
+  }
+  .film__card {
+    width: 304px;
+    height: 500px;
+  }
+
+  .film__poster img {
+    width: 300px;
+    height: 400px;
+  }
+
+  .film__title {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 520px) {
+  .navbar__brand {
+    margin: 0 auto;
+    padding: 0;
+  }
+  .navbar__text {
+    display: none;
+  }
+  .film__card {
+    width: 254px;
+    height: 380px;
+  }
+
+  .film__poster img {
+    width: 250px;
+    height: 300px;
+  }
+
+  .film__title {
+    font-size: 15px;
+  }
+  .film__card-body {
+    padding: 10px;
+  }
+  .film__details-title {
+    font-size: 20px;
+  }
+}
