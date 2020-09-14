@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/kinopoisk-like/static/css/main.99690089.chunk.css",
+    "main.js": "/kinopoisk-like/static/js/main.952f7b92.chunk.js",
+    "main.js.map": "/kinopoisk-like/static/js/main.952f7b92.chunk.js.map",
+    "runtime-main.js": "/kinopoisk-like/static/js/runtime-main.0988e008.js",
+    "runtime-main.js.map": "/kinopoisk-like/static/js/runtime-main.0988e008.js.map",
+    "static/css/2.11829350.chunk.css": "/kinopoisk-like/static/css/2.11829350.chunk.css",
+    "static/js/2.71bfd5a1.chunk.js": "/kinopoisk-like/static/js/2.71bfd5a1.chunk.js",
+    "static/js/2.71bfd5a1.chunk.js.map": "/kinopoisk-like/static/js/2.71bfd5a1.chunk.js.map",
+    "index.html": "/kinopoisk-like/index.html",
+    "precache-manifest.364d0c19110815247138016debb60d37.js": "/kinopoisk-like/precache-manifest.364d0c19110815247138016debb60d37.js",
+    "service-worker.js": "/kinopoisk-like/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/kinopoisk-like/static/css/2.11829350.chunk.css.map",
+    "static/css/main.99690089.chunk.css.map": "/kinopoisk-like/static/css/main.99690089.chunk.css.map",
+    "static/js/2.71bfd5a1.chunk.js.LICENSE.txt": "/kinopoisk-like/static/js/2.71bfd5a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0988e008.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.71bfd5a1.chunk.js",
+    "static/css/main.99690089.chunk.css",
+    "static/js/main.952f7b92.chunk.js"
+  ]
+}
