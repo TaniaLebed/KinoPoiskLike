@@ -6,7 +6,7 @@ const Header = () => {
     <header>
       <div className="navbar">
         <div className="navbar__brand">
-          <Link to="/">
+          <Link to="/kinopoisk-like/">
             KinoPoisk<span>Like</span>
           </Link>
         </div>

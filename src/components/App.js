@@ -13,7 +13,7 @@ function App() {
           <Header />
           <Switch>
             <Route exact path="/kinopoisk-like/" component={MainPage} />
-            <Route path="/film/:id?" component={DetailsPage} />
+            <Route path="/kinopoisk-like/film/:id?" component={DetailsPage} />
             <Route render={() => <h3 className="error">Page not found</h3>} />
           </Switch>
           <Footer />
