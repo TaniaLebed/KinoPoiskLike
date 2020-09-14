@@ -12,7 +12,7 @@ export const handleChosenFilmRequestAction = (chosenFilmID) => {
       type: FETCH_CHOSEN_FILM_REQUEST,
     });
 
-    fetch(`http://www.omdbapi.com/?i=${chosenFilmID}&apikey=${key}`)
+    fetch(`https://www.omdbapi.com/?i=${chosenFilmID}&apikey=${key}`)
       .then((res) => res.json())
       .then((data) => {
         dispatch({

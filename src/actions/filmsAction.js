@@ -18,7 +18,7 @@ export const handleFilmsRequestAction = (searchFilm) => {
       payload: searchFilm,
     });
 
-    fetch(`http://www.omdbapi.com/?s=${searchFilmRequest}&apikey=${key}`)
+    fetch(`https://www.omdbapi.com/?s=${searchFilmRequest}&apikey=${key}`)
       .then((res) => res.json())
       .then((data) => {
         if (data.Response === "True") {
