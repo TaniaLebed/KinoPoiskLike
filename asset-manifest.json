@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/kinopoisk-like/static/css/main.99690089.chunk.css",
-    "main.js": "/kinopoisk-like/static/js/main.011004dc.chunk.js",
-    "main.js.map": "/kinopoisk-like/static/js/main.011004dc.chunk.js.map",
+    "main.js": "/kinopoisk-like/static/js/main.d0d27092.chunk.js",
+    "main.js.map": "/kinopoisk-like/static/js/main.d0d27092.chunk.js.map",
     "runtime-main.js": "/kinopoisk-like/static/js/runtime-main.0988e008.js",
     "runtime-main.js.map": "/kinopoisk-like/static/js/runtime-main.0988e008.js.map",
     "static/css/2.11829350.chunk.css": "/kinopoisk-like/static/css/2.11829350.chunk.css",
     "static/js/2.71bfd5a1.chunk.js": "/kinopoisk-like/static/js/2.71bfd5a1.chunk.js",
     "static/js/2.71bfd5a1.chunk.js.map": "/kinopoisk-like/static/js/2.71bfd5a1.chunk.js.map",
     "index.html": "/kinopoisk-like/index.html",
-    "precache-manifest.1ef98ef6b53bd55458b0884360ee8a27.js": "/kinopoisk-like/precache-manifest.1ef98ef6b53bd55458b0884360ee8a27.js",
+    "precache-manifest.9d8008b9423fa578f15e5ea185ea24c3.js": "/kinopoisk-like/precache-manifest.9d8008b9423fa578f15e5ea185ea24c3.js",
     "service-worker.js": "/kinopoisk-like/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/kinopoisk-like/static/css/2.11829350.chunk.css.map",
     "static/css/main.99690089.chunk.css.map": "/kinopoisk-like/static/css/main.99690089.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.11829350.chunk.css",
     "static/js/2.71bfd5a1.chunk.js",
     "static/css/main.99690089.chunk.css",
-    "static/js/main.011004dc.chunk.js"
+    "static/js/main.d0d27092.chunk.js"
   ]
 }
